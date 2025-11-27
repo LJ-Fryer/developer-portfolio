@@ -11,3 +11,72 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+// Projects
+.projects {
+  padding: 1em 0.75em;
+  background-color: var(--background-color);
+  font-family: var(--text-font);
+  color: var(--text-color);
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__heading {
+    margin-top: 0.5em;
+    text-align: center;
+  }
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__title {
+    margin: 0.5em;
+    font-size: 1em;
+  }
+  &__image {
+    width: 300px;
+    border-radius: 5px;
+  }
+  &__text {
+    padding: 0.5em 1.5em;
+    font-size: 0.5;
+  }
+  &__card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 577px) {
+  .projects {
+    height: 100vh;
+
+    &__inner {
+      flex-direction: row;
+    }
+    &__heading {
+      font-size: 7.5em;
+    }
+    &__title {
+      font-size: 3.5em;
+    }
+    &__card {
+    }
+    &__image {
+      width: 1000px;
+      border-radius: 15px;
+    }
+    &__text {
+      padding: 0.5em 1.5em;
+      font-size: 3em;
+    }
+  }
+}
