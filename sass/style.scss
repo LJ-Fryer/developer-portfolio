@@ -11,3 +11,31 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.section {
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+// Header
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color);
+}
+.header__nav {
+  display: flex;
+  margin: 0 5em;
+  // gap: 5em;
+}
+
+.header__nav-icon {
+  padding: 0.75em;
+  font-size: 5em;
+  color: var(--text-color);
+}
+// .header__nav-link {
+// }
