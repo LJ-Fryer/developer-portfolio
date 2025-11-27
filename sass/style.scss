@@ -11,3 +11,60 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+// Toolkit
+.toolkit {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  &__heading {
+    font-family: var(--header-font);
+    font-size: 2em;
+    text-align: center;
+  }
+  &__skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__icons {
+    font-size: 2.5em;
+  }
+  &__text {
+    font-size: 1.25em;
+    font-family: var(--text-font);
+  }
+}
+
+@media (min-width: 577px) {
+  .toolkit {
+    height: 70vh;
+
+    &__inner {
+      padding: 5em;
+      width: 50vw;
+      height: 100vh;
+    }
+    &__heading {
+      margin-top: 5em;
+      font-size: 7.5em;
+    }
+    &__skills-box {
+      margin-top: 5em;
+      flex-direction: row;
+      gap: 5em;
+    }
+    &__icons {
+      font-size: 10em;
+    }
+    &__text {
+      font-size: 3em;
+      font-family: var(--text-font);
+    }
+  }
+}
