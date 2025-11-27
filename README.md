@@ -8,3 +8,13 @@ This project is actively evolving as I continue learning new technologies and re
 
 Code by Linda Fryer
 https://github.com/LJ-Fryer?tab=repositories
+
+## Credits
+
+**Hero Image**
+Photo by Joshua Wilson (https://unsplash.com/@akeoshiiproject?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash (https://unsplash.com/photos/woman-in-white-dress-standing-on-beach-during-sunset-i_Mfr7e1hSQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+**Icons**
+Icons by Font Awesome
+
+**Fonts**
+Fonts by GoogleFonts
