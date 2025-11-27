@@ -11,3 +11,15 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgba(30, 27, 44, 0.9);
+
+  &__icons {
+    font-size: 150px;
+    color: var(--text-color);
+  }
+}
