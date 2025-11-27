@@ -1,0 +1,15 @@
+:root {
+  --background-color: #700548;
+  --text-color: #fdfdfd;
+  --header-font: "Rammetto One", sans-serif;
+  --text-font: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
