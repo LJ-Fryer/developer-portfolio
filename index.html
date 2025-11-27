@@ -23,28 +23,20 @@
     <link rel="stylesheet" href="./sass/style.css" />
   </head>
   <body>
-    <header class="home" id="home">
-      <nav class="nav">
-        <ul>
-          <li class="nav__item"><a href="#home" aria-label="Home">Home</a></li>
-          <li class="nav__item">
-            <a href="#toolkit" aria-label="My toolkit">Toolkit</a>
-          </li>
-          <li class="nav__item">
-            <a href="#projects" aria-label="My projects">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" aria-label="Contact me">Contact</a>
-          </li>
-        </ul>
+    <header class="header" id="home">
+      <a class="header__nav-link" href="#home" aria-label="Home"><i class="fa-solid fa-house header__nav-icon"></i></i></a>
+      <nav class="header__nav">
+        <a class="header__nav-link" href="#toolkit" aria-label="My toolkit"><i class="fa-solid fa-toolbox header__nav-icon"></i></a>
+        <a class="header__nav-link" href="#projects" aria-label="My projects"><i class="fa-solid fa-folder-open header__nav-icon"></i></a>
+        <a class="header__nav-link" href="#contact" aria-label="Contact me"><i class="fa-solid fa-message header__nav-icon"></i></a>
       </nav>
     </header>
     <main>
-      <section class="hero"></section>
-      <section class="toolkit" id="toolkit"></section>
-      <section class="projects" id="projects"></section>
-      <section class="about" id="about"></section>
-      <section class="contact" id="contact"></section>
+      <section class="section hero"></section>
+      <section class="section toolkit" id="toolkit"></section>
+      <section class="section projects" id="projects"></section>
+      <section class="section about" id="about"></section>
+      <section class="section contact" id="contact"></section>
     </main>
     <footer class="footer"></footer>
   </body>
