@@ -12,4 +12,36 @@
   text-decoration: none;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.about__inner {
+  width: 70vw;
+}
+.about__heading {
+  font-family: var(--header-font);
+  font-size: 2em;
+}
+.about__text {
+  margin-top: 1em;
+  font-family: var(--text-font);
+  font-size: 1em;
+}
+@media (min-width: 577px) {
+  .about__inner {
+    width: 50vw;
+  }
+  .about__heading {
+    font-size: 10em;
+  }
+  .about__text {
+    font-size: 3em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

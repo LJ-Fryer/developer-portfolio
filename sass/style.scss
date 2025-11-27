@@ -11,3 +11,39 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+// About
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  &__inner {
+    width: 70vw;
+  }
+  &__heading {
+    font-family: var(--header-font);
+    font-size: 2em;
+  }
+  &__text {
+    margin-top: 1em;
+    font-family: var(--text-font);
+    font-size: 1em;
+  }
+
+  @media (min-width: 577px) {
+    &__inner {
+      width: 50vw;
+    }
+    &__heading {
+      font-size: 10em;
+    }
+    &__text {
+      // margin-top: 1em;
+      font-size: 3em;
+    }
+  }
+}
