@@ -1,5 +1,6 @@
 :root {
   --background-color: #700548;
+  --secondary-color: rgba(30, 27, 44, 0.9);
   --text-color: #ffffe3;
   --header-font: "Rammetto One", sans-serif;
   --text-font: "Open Sans", sans-serif;
@@ -21,7 +22,6 @@
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  background-color: var(--background-color);
 }
 .header__nav {
   display: flex;
@@ -133,6 +133,7 @@
 @media (min-width: 577px) {
   .toolkit {
     height: 70vh;
+    background-color: rgba(30, 27, 44, 0.9);
   }
   .toolkit__inner {
     padding: 5em;
@@ -218,6 +219,17 @@
     padding: 0.5em 1.5em;
     font-size: 3em;
   }
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgba(30, 27, 44, 0.9);
+}
+.footer__icons {
+  font-size: 150px;
+  color: var(--text-color);
 }
 
 /*# sourceMappingURL=style.css.map */
