@@ -1,6 +1,6 @@
 :root {
   --background-color: #700548;
-  --text-color: #fdfdfd;
+  --text-color: #ffffe3;
   --header-font: "Rammetto One", sans-serif;
   --text-font: "Open Sans", sans-serif;
 }
@@ -15,9 +15,12 @@
 .header {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
+  height: 10em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
   background-color: var(--background-color);
 }
 .header__nav {
@@ -28,6 +31,44 @@
   padding: 0.75em;
   font-size: 5em;
   color: var(--text-color);
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../assets/hero-image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+}
+.hero__inner {
+  width: 500px;
+  padding: 5em;
+}
+.hero__title {
+  font-family: var(--header-font);
+  font-size: 2.5em;
+}
+.hero__text {
+  font-family: var(--text-font);
+  font-size: 1.5em;
+}
+@media (min-width: 577px) {
+  .hero__inner {
+    padding-top: 5em;
+    width: 75vw;
+  }
+  .hero__title {
+    font-size: 10em;
+  }
+  .hero__text {
+    font-size: 5em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
