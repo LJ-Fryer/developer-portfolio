@@ -25,7 +25,7 @@
   <body>
     <header class="header" id="home">
       <a class="header__nav-link" href="#home" aria-label="Home"
-        ><i class="fa-solid fa-house header__nav-icon"></i
+        ><i class="fa-solid fa-house header__nav-icon header__home-icon"></i
       ></a>
       <nav class="header__nav">
         <a class="header__nav-link" href="#about" aria-label="About"
@@ -43,11 +43,150 @@
       </nav>
     </header>
     <main>
-      <section class="hero"></section>
-      <section class="about" id="about"></section>
-      <section class="toolkit" id="toolkit"></section>
-      <section class="projects" id="projects"></section>
+      <section class="hero">
+        <div class="hero__inner">
+          <h1 class="hero__title">Hi! I'm Linda.</h1>
+          <h4 class="hero__text">Sydney based junior developer</h4>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <article class="about__inner">
+          <h2 class="about__heading">About me...</h2>
+          <p class="about__text">
+            With a background as a teacher, I bring strong communication and
+            problem‑solving skills to tech. A lifelong science enthusiast and
+            puzzle solver, I thrive on analytical challenges. Currently training
+            with _Nology, I’m building the skills to craft responsive,
+            user‑friendly web experiences with creativity and precision.
+          </p>
+        </article>
+      </section>
+      <section class="toolkit">
+        <article class="toolkit__inner">
+          <h3 class="toolkit__heading">My skills...</h3>
+          <div class="toolkit__skills-box">
+            <i class="fa-brands fa-html5 toolkit__icons"></i>
+            <p class="toolkit__text">HTML 5</p>
+            <i class="fa-brands fa-css3-alt toolkit__icons"></i>
+            <p class="toolkit__text">CSS</p>
+            <i class="fa-brands fa-square-js toolkit__icons"></i>
+            <p class="toolkit__text">JavaScript</p>
+          </div>
+          <div class="toolkit__skills-box">
+            <i class="fa-brands fa-sass toolkit__icons"></i>
+            <p class="toolkit__text">Sass/SCSS</p>
+            <i class="fa-brands fa-git-alt toolkit__icons"></i>
+            <p class="toolkit__text">Git</p>
+            <i class="fa-brands fa-react toolkit__icons"></i>
+            <p class="toolkit__text">React</p>
+          </div>
+        </article>
+      </section>
+      <section class="projects">
+        <h2 class="projects__heading">My Projects</h2>
+        <div class="projects__inner">
+          <article class="projects__card">
+            <h3 class="projects__title">Ashtanga Landing Page</h3>
+            <img
+              src="./assets/ashtanga-slide.png"
+              alt="Ashtanga yoga landing page"
+              class="projects__image"
+            />
+            <p class="projects__text">
+              Yoga meets pixels in this sleek, responsive Ashtanga Yoga site!
+              Built with love (and advanced CSS), it gracefully flows across
+              screens like a perfect Vinyasa. From smooth layouts to interactive
+              features, this project flexes my front-end skills while keeping
+              things Zen. No yoga mat required - just take a look!
+            </p>
+            <div class="projects__card-links">
+              <a
+                href="https://github.com/LJ-Fryer/ashtanga-project/tree/main"
+                target="_blank"
+                class="project__links"
+                ><i class="fa-brands fa-github project__icons"></i
+              ></a>
+              <a
+                href="https://ashtanga-yoga.netlify.app/"
+                class="project__links"
+                target="_blank"
+                >App</a
+              >
+            </div>
+          </article>
+          <article class="projects__card">
+            <h3 class="projects__title">The Vocabulator</h3>
+            <img
+              src="./assets/dictionary-slide.png"
+              alt="Dictionary App"
+              class="projects__image"
+            />
+            <p class="projects__text">
+              Because words are hard... sometimes. This React-powered dictionary
+              app fetches definitions faster than you can say “sesquipedalian.”
+              With two APIs working behind the scenes, it’s like a pocket-sized
+              linguistics wizard. Big words, smooth UI, and a sprinkle of React
+              magic - what’s not to love?
+            </p>
+            <div class="projects__card-links">
+              <a
+                href="https://github.com/LJ-Fryer/ashtanga-project/tree/main"
+                target="_blank"
+                class="project__links"
+                ><i class="fa-brands fa-github project__icons"></i
+              ></a>
+              <a
+                href="https://ashtanga-yoga.netlify.app/"
+                class="project__links"
+                target="_blank"
+                >App</a
+              >
+            </div>
+          </article>
+          <article class="projects__card">
+            <h3 class="projects__title">5 Day Forecast</h3>
+            <img
+              src="./assets/forecast-slide.png"
+              alt="5 Day Weather Forecast project"
+              class="projects__image"
+            />
+            <p class="projects__text">
+              Bringing weather predictions and React magic together! This sleek,
+              responsive app delivers a five-day forecast faster than you can
+              say "partly cloudy with a chance of code." Powered by React, APIs,
+              and a sprinkle of CSS, it's the perfect mix of functionality and
+              flair - no umbrella required!
+            </p>
+            <div class="projects__card-links">
+              <a
+                href="https://github.com/LJ-Fryer/ashtanga-project/tree/main"
+                target="_blank"
+                class="project__links"
+                ><i class="fa-brands fa-github project__icons"></i
+              ></a>
+              <a
+                href="https://ashtanga-yoga.netlify.app/"
+                class="project__links"
+                target="_blank"
+                >App</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
-    <footer class="footer" id="footer"></footer>
+    <footer class="footer" id="footer">
+      <a href="https://github.com/LJ-Fryer" target="_blank"
+        ><i class="fa-brands fa-github footer__icons"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/linda-fryer-ba2294ba/"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin footer__icons"></i
+      ></a>
+      <a href="mailto:codingyogi7@gmail.com" class=""
+        ><i class="fa-solid fa-envelope footer__icons"></i
+      ></a>
+    </footer>
   </body>
 </html>
